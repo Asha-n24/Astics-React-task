@@ -1,0 +1,26 @@
+.navstyle{
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px !important;
+    padding:1% 3%;
+    display:flex;
+}
+#navbarTogglerDemo03{
+    width:100%;
+ 
+}
+.floatdiv{
+    float:right !important;
+}
+.logstyle{
+    border: 1px solid #3671EE;
+    border-radius: 21px;
+    padding: 8px 23px;
+    font-weight: 600;
+    background-color: #3671EE;
+cursor: pointer;
+color:white;
+}
+.logstyle:hover{
+background-color: #3671EE;
+cursor: pointer;
+color:white;
+}

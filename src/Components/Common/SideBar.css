@@ -1,0 +1,104 @@
+.sidenavstyle {
+    box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+    padding-left: 7%;
+}
+.logoutbtn {
+
+    width: 200px;
+    border-radius: 7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color:#3671EE ;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer !important;
+    border: none;
+    outline: none;
+   
+  }
+  .sidenav---sidenav---_2tBP {
+    background-color: #3671EE;
+    padding-top: 4%;
+}
+.user-img{
+    width: 30%;
+    border-radius: 50%;
+    
+}
+.dashboardheader_rightcontent {
+    margin-left:2%;
+}
+.const_popover{
+float: right;
+z-index:99999;
+}
+.userdiv{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.ant-popconfirm {
+    z-index: 1060;
+  }
+  .ant-popover {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+    font-weight: normal;
+    white-space: normal;
+    text-align: left;
+    cursor: auto;
+    user-select: text;
+  }
+  .ant-popover::after {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.01);
+    content: '';
+  }
+  .ant-popover-hidden {
+    display: none;
+  }
+  .ant-popover-placement-top,
+  .ant-popover-placement-topLeft,
+  .ant-popover-placement-topRight {
+    padding-bottom: 10px;
+  }
+  .ant-popover-placement-right,
+  .ant-popover-placement-rightTop,
+  .ant-popover-placement-rightBottom {
+    padding-left: 10px;
+  }
+  .ant-popover-placement-bottom,
+  .ant-popover-placement-bottomLeft,
+  .ant-popover-placement-bottomRight {
+    padding-top: 10px;
+  }
+  .ant-popover-placement-left,
+  .ant-popover-placement-leftTop,
+  .ant-popover-placement-leftBottom {
+    padding-right: 10px;
+  }
+  .ant-popover-inner {
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 7px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15) \9;
+    margin-right:2%;
+  }
